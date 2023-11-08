@@ -9,6 +9,9 @@ TagManager:
   - Pos1
   - Pos2
   - Pos4
+  - Coins
+  - Target
+  - Cannonball
   layers:
   - Default
   - TransparentFX
