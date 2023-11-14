@@ -90,5 +90,6 @@ public class Follow : MonoBehaviour
         index++;
         PlayerPrefs.SetInt("save", index); //PlayerPrefs Set int will save the current index value
         PlayerPrefs.Save();
+        Debug.Log("Next Camera");
     }
 }

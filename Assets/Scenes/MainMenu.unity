@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 490413017}
   - component: {fileID: 490413016}
   - component: {fileID: 490413015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,6 +829,7 @@ GameObject:
   - component: {fileID: 573340659}
   - component: {fileID: 573340661}
   - component: {fileID: 573340660}
+  - component: {fileID: 573340662}
   m_Layer: 5
   m_Name: Text Mesage
   m_TagString: Untagged
@@ -876,7 +877,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Score a \nbasket"
+  m_text: 'Score a
+
+    busket'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -903,8 +906,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -953,6 +956,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573340658}
   m_CullTransparentMesh: 1
+--- !u!95 &573340662
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573340658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a1b499c5afe2ba47ab5677f34f1daf8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &708327335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1096,7 @@ GameObject:
   - component: {fileID: 920410996}
   - component: {fileID: 920410999}
   - component: {fileID: 920411000}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,7 +1233,7 @@ GameObject:
   - component: {fileID: 1003206630}
   - component: {fileID: 1003206629}
   - component: {fileID: 1003206628}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,7 +1574,7 @@ GameObject:
   - component: {fileID: 1311098096}
   - component: {fileID: 1311098095}
   - component: {fileID: 1311098094}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2121,7 +2145,7 @@ GameObject:
   - component: {fileID: 1863871526}
   - component: {fileID: 1863871525}
   - component: {fileID: 1863871524}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
