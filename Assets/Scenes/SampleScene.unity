@@ -834,12 +834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  ForwardX: 0
-  ForwardY: 1
-  ForwardZ: 0
-  ReverseX: 0
-  ReverseY: 0
-  ReverseZ: 0
+  rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &624957206
 GameObject:
   m_ObjectHideFlags: 0
